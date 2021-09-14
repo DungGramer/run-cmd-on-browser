@@ -12,4 +12,4 @@ def decode(url):
 url = decode(sys.argv[1])
 
 print(url)
-os.system(url + ' &echo Press enter to exit &pause >nul')
+os.system(url + ' &echo: & echo Press enter to exit &pause >nul')
